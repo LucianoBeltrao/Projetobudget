@@ -9,6 +9,9 @@ import plotly.express as px
 
 from app import *
 
+
+#=============Layout===============#
+
 content = html.Div(id="page-content")
 
 app.layout = dbc.Container(children=[
